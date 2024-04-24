@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dnpPointMap version="2.15.2">
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="DNP3MapVersion" function="SMDP" index="0" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="Seconds" default="0" name="TotalUpTime" function="SMDP" index="1" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="Seconds" default="0" name="TotalPowerLowTime" function="SMDP" index="2" class="0" userReadable="true" mm2="true" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="Seconds" default="0" name="ActiveUpTime" function="SMDP" index="3" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="Seconds" default="0" name="ActivePowerLowTime" function="SMDP" index="4" class="0" userReadable="true" mm2="true" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="F" default="-1" name="CndTemp" function="PDDP" index="5" class="1" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="A" default="-1" name="CndIrms" function="PDDP" index="6" class="1" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="F" default="0" name="CndTempExcept" function="PDEP" index="7" class="1" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>Resting value of 0, reports max values during event</notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="A" default="0" name="CndIrmsExcept" function="PDEP" index="8" class="1" userReadable="false" mm2="false" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>Resting value of 0, reports max values during event</notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="A" default="0" name="FciThreshFaultCurrent" index="9" class="1" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>Resting value of 0, reports max values during event</notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="A" default="0" name="FciPercentFaultCurrent" index="10" class="1" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>Resting value of 0, reports max values during event</notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="A" default="0" name="FciDiDtFaultCurrent" index="11" class="1" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>Resting value of 0, reports max values during event</notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="A" default="0" name="YesterdayMaxIrms" index="12" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>Maximum 5-minute average of Irms for the previous day</notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="F" default="0" name="YesterdayMaxTemp" index="13" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>Maximum 5-minute average of temperature for the previous day</notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="AvailableLogData" index="14" class="3" userReadable="false" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="LastCommandStatus" index="15" class="3" userReadable="false" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="degrees" default="0" name="EIRelativePhaseDisplacement" index="16" class="1" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="degrees" default="0" name="LatitudeInteger" index="17" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="fraction degrees" default="0" name="LatitudeFraction1" index="18" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="fraction degrees" default="0" name="LatitudeFraction2" index="19" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="degrees" default="0" name="LongitudeInteger" index="20" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="fraction degrees" default="0" name="LongitudeFraction1" index="21" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="fraction degrees" default="0" name="LongitudeFraction2" index="22" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="meters" default="0" name="Altitude" index="23" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="millivolts" default="0" name="EnergyReserveVoltage" index="24" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>Sentient use only for product improvement </notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="seconds" default="0" name="TotalWanOffTime" index="25" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="seconds" default="0" name="ActiveWanOffTime" index="26" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="SoftwareVersion" function="SMDP" index="27" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="OtapStatus" index="28" class="0" userReadable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>SENTIENT USE ONLY</notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="DeviceType" index="29" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="DeviceSerialNumber1" index="30" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="DeviceSerialNumber2" index="31" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="A" default="0" name="LogIIrmsAlert1" index="32" class="2" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="A" default="0" name="LogIIrmsAlert2" index="33" class="2" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="F" default="0" name="LogITempAlert1" index="34" class="2" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="F" default="0" name="LogITempAlert2" index="35" class="2" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="A" default="0" name="FciPercentAutoThreshold" index="36" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="meters" default="1001" name="LocationAccuracyEstimate" index="37" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="LocationFix" index="38" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="meters" default="1001" name="AltitudeAccuracyEstimate" index="39" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="PhaseIdSignature" index="40" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="EFPercentEventTime" index="41" class="1" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="EFPercentEventNominal" index="42" class="1" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="EFPercentMinSag" index="43" class="1" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" default="0" name="YesterdayMaxErms" index="44" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="dBm" default="-125" name="RSSI" index="45" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogInput" radix="signed" unit="bitmask" default="0" name="DeviceTrouble" index="46" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+	<dnpPoint xsi:type="analogInput" radix="signed" unit="Amps" default="0" name="GroundFaultCurrent" index="47" class="0" userReadable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="FieldMaintenanceAlert" function="SMAP" index="0" class="0" userReadable="false" mm2="false" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="PowerLowAlert" function="SMAP" index="1" class="0" userReadable="true" mm2="true" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="BatteryMaintenanceAlert" function="SMAP" index="2" class="0" userReadable="true" mm2="true" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="FciLicenseEnabled" function="SMAP" index="3" class="0" userReadable="true" mm2="false" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="FciFaultIndicationAlert" index="4" class="1" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="FciLossOfSourceInProgress" index="5" class="1" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="FciLedState" index="6" class="3" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="EfieldNotPresentAlert" index="7" class="1" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="CurrentDirectionReversed" index="8" class="1" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="WanOffAlert" index="9" class="1" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryInput" default="false" name="HiAmpActive" index="10" class="1" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+	<dnpPoint xsi:type="binaryInput" default="false" name="GroundFaultActive" index="11" class="0" userReadable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="SystemBootCounter" function="SMCP" index="0" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="FieldMaintenanceAlertCounter" function="SMCP" index="1" class="0" userReadable="false" mm2="false" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="PowerLowAlertCounter" function="SMCP" index="2" class="0" userReadable="true" mm2="true" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="CndTempExceptCounter" function="PDCP" index="3" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="CndIrmsExceptCounter" function="PDCP" index="4" class="0" userReadable="true" mm2="false" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="FciThreshFaultCounter" index="5" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="FciPercentFaultCounter" index="6" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="FciDiDtFaultCounter" index="7" class="0" userReadable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="CaptureCounter" index="8" class="0" userReadable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="FciLossOfSourceCounter" index="9" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="EfieldNotPresentAlertCounter" index="10" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="CurrentDirectionReversalCounter" index="11" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="WanOffCounter" index="12" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="DebugCounter" index="13" class="0" userReadable="true" mm2="true" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="AnomalyCounter" index="14" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="DistClass1Counter" index="15" class="0" userReadable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="DistClass2Counter" index="16" class="0" userReadable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="DistClass3Counter" index="17" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="DistClass4Counter" index="18" class="0" userReadable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="DistCapBankCounter" index="19" class="0" userReadable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="DistLogCounter" index="20" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="EventLogCounter" index="21" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="AuditLogCount" index="22" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="SystemLogCount" index="23" class="0" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="counterInput" default="0" name="HiAmpCount" index="24" class="1" userReadable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="300" unit="F" default="185" name="CndTempThresh" function="PDTP" index="0" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="10000" unit="A" default="2000" name="CndIrmsThresh" function="PDTP" index="1" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" unit="hash key" default="0" name="EnableLicensedFeature" index="2" userReadable="false" userEditable="false" command="true" mm2="false" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="20" max="10000" unit="A" default="2000" name="FciThreshLimit" index="3" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="8" max="167" unit="ms" default="24" name="FciThreshMinDuration" index="4" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="100" max="200" unit="%" default="130" name="FciPercentLimit" index="5" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="50" max="200" unit="A" default="50" name="FciPercentMinLimit" index="6" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="24" max="96" unit="Hours" default="72" name="FciPercentSamplePeriod" index="7" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="8" max="167" unit="ms" default="24" name="FciPercentMinDuration" index="8" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="10" max="500" unit="A" default="100" name="FciDiDtLimit" index="9" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="8" max="167" unit="ms" default="24" name="FciDiDtRiseTime" index="10" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="120000" unit="ms" default="120000" name="FciInrushDelay" index="11" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="10" max="32400" unit="Seconds" default="10800" name="FciLedTimeoutDuration" index="12" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="3" max="1000" unit="A" default="5" name="FciNormalLimit" index="13" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="600" unit="Seconds" default="60" name="FciNormalMinDuration" index="14" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="60" max="600" unit="Seconds" default="0" name="FciTemporaryMaxDuration" index="15" userReadable="false" userEditable="false" mm2="false" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" default="0" name="GenerateLogPackage" index="16" userReadable="false" userEditable="false" command="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="-1200" max="1200" unit="HHMM" default="0" name="LocalTimeOffset" index="17" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="24" max="167" unit="ms" default="24" name="FciDiDtMinDuration" index="18" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="3" max="100" unit="%" default="90" name="FciLossOfSourceFallLimitPercent" index="19" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="24" max="167" unit="ms" default="24" name="FciLossOfSourceFallTime" index="20" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="100" max="167" unit="ms" default="100" name="FciLossOfSourceMinDuration" index="21" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="1" max="100" unit="A" default="1" name="FciLossOfSourceFinalLevel" index="22" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="8" max="6000" unit="ms" default="100" name="FciPreInrushLowCurrentMinDuration" index="23" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="1000" unit="A" default="600" name="LogIIrmsThreshold1" index="24" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="1000" unit="A" default="300" name="LogIIrmsThreshold2" index="25" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="-40" max="300" unit="F" default="176" name="LogITempThreshold1" index="26" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="-40" max="300" unit="F" default="104" name="LogITempThreshold2" index="27" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="130" unit="samples" default="32" name="AnomalyGuardBandSize" index="28" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="100" unit="tenths" default="40" name="AnomalyKsigToStart" index="29" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="100" unit="tenth A" default="10" name="AnomalyCurrentNoiseFloor" index="30" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="200" unit="tenths" default="100" name="AnomalyMinSnrToStop" index="31" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="2" max="1300" unit="samples" default="651" name="AnomalyWindowSize" index="32" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="-1200" max="1400" unit="HHMM" default="0" name="DnpUTCTimeOffset" index="33" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="5184000" unit="Seconds" default="604800" name="DnpStaleStackTime" index="34" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="206968635" unit="MWDHHMM" default="0" name="DnpDSTOn" index="35" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="206968635" unit="MWDHHMM" default="0" name="DnpDSTOff" index="36" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="-1200" max="1400" unit="HHMM" default="0" name="DnpDSTTimeOffset" index="37" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="unsigned" min="0" max="4294967295" unit="Seconds" default="0" name="WaveformCaptureTime" index="38" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="61" max="86400" unit="Seconds" default="14400" name="DistLogPeriod" index="39" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="128" max="4096" unit="samples" default="4096" name="AedWindowSize" index="40" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="128" max="2048" unit="samples" default="1024" name="AedGuardBand" index="41" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="1" max="3" unit="samples" default="2" name="AedSensitivity" index="42" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="2048" max="56250000" unit="samples" default="2048" name="AedCooldown" index="43" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="100" unit="percent" default="50" name="EFPercentSagThreshold" index="44" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="1" max="1440" unit="minutes" default="2" name="EFPercentNominalWindow" index="45" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="1" max="1000" unit="msec" default="167" name="EFPercentMinDuration" index="46" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="61" max="86400" unit="Seconds" default="14400" name="EventLogPeriod" index="47" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="48" unit="hours" default="24" name="AuditLogInterval" index="48" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="1" max="60" unit="files" default="60" name="AuditLogHistory" index="49" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="16777215" unit="bitmask" default="0" name="LogGenerate" index="50" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="1" max="60" unit="files" default="60" name="SystemLogHistory" index="51" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="43200" unit="minutes" default="60" name="HiAmpTimeDuration" index="52" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="100000" unit="events" default="0" name="HiAmpCountThreshold" index="53" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="analogOutput" radix="signed" min="0" max="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" unit="seconds" default="0" name="RequestWaveform" index="54" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="MasterRebootPulse" function="SMRP" index="0" userReadable="false" userEditable="true" pulse="true" command="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="true" name="FieldMaintenanceLatch" function="SMRP" index="1" userReadable="false" userEditable="false" mm2="false" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="true" name="ReserveModeLatch" function="SMRP" index="2" userReadable="false" userEditable="false" mm2="false" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="IndLedLatch" function="SMRP" index="3" userReadable="true" userEditable="true" mm2="true" mm3="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="FciLedLatch" function="SMRP" index="4" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="true" name="FciMasterEnableLatch" index="5" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="FciLocalAnunciatorLatch" index="6" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="FciThreshEnabledLatch" index="7" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="FciPercentEnabledLatch" index="8" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="FciDiDtEnabledLatch" index="9" userReadable="true" userEditable="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="FciResetPulse" index="10" userReadable="false" userEditable="true" pulse="true" command="true" mm2="true" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="FciLossOfSourceEnabledLatch" index="11" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="FciLedStateEnabledLatch" index="12" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="true" name="CurrentDirectionInvert" index="13" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="EfieldNotPresentEnableLatch" index="14" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="CurrentDirectionReversedEnableLatch" index="15" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="true" name="GpsEnableLatch" index="16" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="true" name="WanOffAlertEnableLatch" index="17" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="OtapStart" index="18" userReadable="false" userEditable="false" command="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>SENTIENT USE ONLY</notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="OtapStatusClear" index="19" userReadable="false" userEditable="false" command="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <notes>SENTIENT USE ONLY</notes>
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="LogIAlertEnableLatch" index="20" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="LogILoggingEnableLatch" index="21" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="AedEnableLatch" index="22" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="PhaseIdEnableLatch" index="23" userReadable="true" userEditable="true" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="DisturbanceClassificationEnableLatch" index="24" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="EFPercentVarianceEnableLatch" index="25" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="true" name="EFPercentFaultRestricted" index="26" userReadable="false" userEditable="false" mm2="false" mm3="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="CreateEventLogPulse" index="27" userReadable="false" userEditable="false" mm2="false" mm3="true" pulse="true" command="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="EnableDebugMode" index="28" userReadable="false" userEditable="false" mm2="false" mm3="true" pulse="true" command="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+    <dnpPoint xsi:type="binaryOutput" default="false" name="SwcEnableLatch" index="29" userReadable="false" userEditable="false" mm2="false" mm3="true" pulse="false" command="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </dnpPoint>
+
+</dnpPointMap>
